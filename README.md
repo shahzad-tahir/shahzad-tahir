@@ -10,12 +10,12 @@ import { Languages, Frameworks } from 'shahzad-tahir/skills';
 class Bio extends SoftwareDeveloper {
   name     = 'Muhammad Shahzad Tahir';
   title    = 'Senior Software Developer';
-  company  = 'Nextbridge | Remote';
+  company  = 'Strategic Systems International | Lahore';
   location = 'Lahore, PK';
 }
 
 class Skills extends SoftwareDeveloper {
-  languages  = ['JavaScript', 'TypeScript', 'PHP', ...Languages];
+  languages  = ['JavaScript', 'PHP', ...Languages];
   databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
   frameworks = ['Vue', 'Laravel', 'Node.js', ...Frameworks];
 }
